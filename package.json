@@ -1,12 +1,16 @@
 {
-  "name": "avalanche-smart-contract",
+  "name": "avalanche-simple-storage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:local": "npx hardhat run scripts/deploy.ts",
+    "deploy:testnet": "npx hardhat run scripts/deploy.ts --network fuji",
+    "interact": "npx ts-node scripts/interact.ts"
   },
-  "author": "",
+  "author": "Nawodya Ishan",
   "license": "ISC",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.3",

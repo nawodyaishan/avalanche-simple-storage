@@ -1,4 +1,4 @@
-# **Simple Storage Smart Contract on Avalanche Blockchain with Solidity, TypeScript, EVM, HardHat and AvalancheJS**
+# **Simple Storage Smart Contract on Avalanche Blockchain with Solidity, TypeScript, EVM, HardHat and EthersJS**
 
 This is a simple storage smart contract implemented in Solidity and TypeScript, deployed on the Avalanche network using EVM, and interacted with using the AvalancheJS library.
 

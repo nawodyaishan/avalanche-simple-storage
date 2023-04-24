@@ -59,5 +59,5 @@ To use this project, you will need the following:
 - Solidity
 - TypeScript
 - EVM
-- AvalancheJS
+- Ethers.js
 - Hardhat
